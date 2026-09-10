@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="header-container">
+            <h1>Жулдыз Елбаева</h1>
+            <h2>Web Technologies Frontend | Group SE-2522</h2>
+            <nav>
+                <ul class="site-nav">
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#hobbies">Hobbies & Websites</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#contact">Contact Form</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about-me" class="profile-card">
+            <h3>About Me</h3>
+            <p>I am a 2nd-year Software Engineering student at Astana IT University. I enjoy exploring software development, database architecture, and building interactive user experiences on the web.</p>
+            
+            <img src="images/аватарка.avif" width="100" height="100" alt="Profile avatar representing Zhuldyz Yelbayeva" class="avatar-img">            <p class="mood-paragraph">Today, I am feeling exceptionally inspired, focused, and ready to conquer new coding challenges! 💻✨🚀</p>
+        </section>
+
+        <section id="hobbies">
+            <h3>Hobbies & Favorite Websites</h3>
+            
+            <h4>My Hobbies:</h4>
+            <ol>
+                <li>3D modeling and animation in Blender</li>
+                <li>Designing user interfaces in Framer</li>
+                <li>Solving algorithmic problems in Python and Java</li>
+            </ol>
+
+            <h4>Favorite Websites:</h4>
+            <ul>
+                <li><a href="https://n5.doramaliven.news/dorama/top/" target="_blank">Doramalive</a></li>
+                <li><a href="https://lms.astanait.edu.kz/" target="_blank">LMS astanait</a></li>
+                <li><a href="https://www.youtube.com/?app=desktop&hl=ru" target="_blank">YouTube</a></li>
+            </ul>
+
+            <button type="button" class="action-btn">Click Me</button>
+        </section>
+
+        <section id="schedule">
+            <h3>Class Schedule</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Day</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Technologies Frontend</td>
+                        <td>Thursday</td>
+                        <td>12:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Design and Analysis of Algorithms</td>
+                        <td>Thursday</td>
+                        <td>16:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Software Design Patterns</td>
+                        <td>Thursday</td>
+                        <td>18:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h3>Get in Touch</h3>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="favcolor">Favorite Color:</label>
+                    <input type="color" id="favcolor" name="favcolor" value="#4a90e2">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="submit-btn">Submit</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Zhuldyz Yelbayeva. Astana IT University. Group SE-2522.</p>
+    </footer>
+
+</body>
+</html>
